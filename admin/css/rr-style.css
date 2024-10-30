@@ -1,0 +1,99 @@
+/*
+ * Plugin : Contact Form 7 Round Robin
+ * File : rr-style.css
+ * Dessription: Style for admin pages
+ * Author: iCreate Advertising Solutions
+ * Author URI: http://icreateadvertising.com.au/
+ * Version: 1.0
+ */
+
+ .round-robin .form-select {font-size: 18px;font-weight: 400;line-height: 29px;}
+ .round-robin .section {padding: 9px 15px 10px 0;margin-top: 8px;}
+ .round-robin .user-items-wraper {border: 2px solid #333; padding: 20px 30px; width: 60%; clear:both;}
+
+
+ /* .round-robin .add-user {margin-bottom:25px;}
+ .round-robin .user-items .user-item{margin-bottom: 15px;}
+ .round-robin .user-items .user-item > span {display: inline-block;}
+ .round-robin .user-items .item-id {width: 7%;}
+ .round-robin .user-items .item-name {width: 25%;}
+ .round-robin .user-items .item-email {width: 25%;}
+ .round-robin .user-items .item-active {width: 13%;}
+ .round-robin .user-items .item-edit {width: 13%;}
+ .round-robin .user-items .item-delete {width: 15%;}
+ .round-robin .user-item.new .item-email {padding-left:3px;} */
+
+.add-users-link a, .round-robin input, .round-robin select {
+  border: 1px solid #333333;
+  background-color: white;
+  font-size: 14px;
+  line-height: 16px;
+  padding: auto;
+  margin-right: 5px;
+}
+ .add-users-link a,
+ .round-robin input[type="button"] {padding:5px 20px; cursor: pointer;}
+ .round-robin .item-edit input[type="button"] {padding:5px 25px;}
+ /* .round-robin .item-email input {padding:5px 10px; width: 80%;} */
+
+ .rr-error {font-size: 13px; font-weight: 400; color: red; padding-left: 20px;}
+ .rr-success {font-size: 13px; font-weight: 400; color: green; padding-left: 20px;}
+ .rr-filed-not-valid{border:1px solid red !important;}
+
+ .round-robin .spinner{float: inherit !important;padding: 0px;padding-left: 20px;margin: 0px;vertical-align: middle;}
+
+ .round-robin .user-details-wraper {border: 2px solid #333; padding: 20px 30px; width: 60%; clear: both;}
+ .round-robin .user-details{min-height: 160px;}
+ .user-manager .form-select { float: left;}
+ .user-manager .add-user {float: left;}
+ .user-details .user-item {width: 320px;}
+ .user-details .user-item > span {clear:both; display: inline-block;margin-bottom: 5px;}
+ .user-item label.label {float: left; cursor: inherit; padding-top: 4px;}
+
+ .form-manager .add-users-link{float: right;width:45%;}
+ .add-users-link a {text-decoration: none; color: #000;}
+ .form-manager .user-items li span{margin-right: 20px;}
+ .user-items-wraper h4 {margin-top: 0px;}
+ .round-robin .add-users-link.section{margin-top: -40px;}
+
+
+ .user-details .item-id{display: none !important;}
+.item-email input, .item-name input {width: 300px;}
+.rr-item input[type="text"] {
+    width: 300px;
+}
+.round-robin #icon-wpcf7 {background-image: url("../../images/robin-logo-32.gif");}
+
+h2.rrPageTitle:before {
+  content: url("../../images/robin-logo-32.png");
+  float: left;
+  margin: 0 3px 0 0;
+}
+.rrClearBoth {
+	clear:both;
+}
+
+.item-holidays {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 12px 0;
+}
+
+.rr-section-heading {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#clear-holidays {
+    margin-top: 5px;
+}
+.round-robin .edit-save-button {
+    background-color: green;
+    color: white;
+}
+
+.round-robin .edit-delete-button {
+    color: red;
+    border-color: red;
+}
